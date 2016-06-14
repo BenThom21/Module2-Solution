@@ -21,18 +21,36 @@ section {
 div {
   background-color: #ABABAB;
 }
-.container {
+.content {
   position:relative;
 }
-#chicken{
+#left-paragraph{
   background-color: #EB96EB;
 }
-#beef {
+#center-paragraph {
   background-color: #FC1758;
 }
-#sushi {
+#right-paragraph {
   background-color: #D7DE8E;
 }
+.content {
+  width: 100%;
+}
+.paragraph {
+  position: relative;
+  border: 1px solid black;
+  margin: 10px;
+}
+.heading-paragraph {
+  border: 1px solid black
+  margin: 0px;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+}
+
+
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
